@@ -1,1 +1,0 @@
-# NTAS-LOG
