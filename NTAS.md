@@ -1,6 +1,11 @@
 # NTAS-LOG
 
+## 첫째날 ┐
+          ├── 쿼드마이너 관리서버/분석서버 UI 조작(버튼 검색)
+## 둘째날 ┘
 
+## 셋째날 AQL실습 퀴즈
+### 2023-08-02 14:45:000.000 퇴근 
 ```SQL
 SELECT sourceip, sourceport, destinationip, destinatioport, count
 FROM
@@ -12,10 +17,10 @@ group by destinationport destinatioport desc
 
 
 
+## 넷째날 SQL실습 퀴즈
+### 2023-08-03 15:00:000.000 ~ 2023-08-03 15:30:000.000
 
-### 2023-08-03 14:06:000.000
-
-### 1.
+### Quiz.1
 ```SQL
 SELECT
 qidname(qid)
@@ -33,7 +38,7 @@ limit 500
 START '2023-08-02 14:00:00' 
 STOP '2023-08-02 15:30:35'
 ```
-### 2.
+### Quiz.2
 ```SQL
 SELECT
 logsourcename(logsourceid) as logsourcename
@@ -51,7 +56,7 @@ limit 2000
 START '2023-08-02 14:00:00' 
 STOP '2023-08-02 16:00:00'
 ```
-### 3.
+### Quiz.3
 ```SQL
 SELECT
 logsourcename(logsourceid) as logsourcename
