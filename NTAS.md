@@ -16,7 +16,7 @@ group by destinationport destinatioport desc
 ### 2023-08-03 14:06:000.000
 
 ### 1.
-```
+```SQL
 SELECT
 qidname(qid)
 ,logsourcename(logsourceid) as logsourcename
@@ -34,7 +34,7 @@ START '2023-08-02 14:00:00'
 STOP '2023-08-02 15:30:35'
 ```
 ### 2.
-```
+```SQL
 SELECT
 logsourcename(logsourceid) as logsourcename
 ,qidname(qid)
@@ -52,7 +52,7 @@ START '2023-08-02 14:00:00'
 STOP '2023-08-02 16:00:00'
 ```
 ### 3.
-```
+```SQL
 SELECT
 logsourcename(logsourceid) as logsourcename
 ,qidname(qid)
